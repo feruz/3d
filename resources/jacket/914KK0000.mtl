@@ -13,7 +13,7 @@ newmtl wire_028089177
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-    map_Kd 914KK0000_texturing_Material__2_Diffuse.png
+    map_Kd 914KK0000_texturing_Material__2_Diffuse.jpg
     map_Ks 914KK0000_texturing_Material__2_Specular.png
-    # map_bump 914KK0000_texturing_Material__2_Normal.png
-    norm 914KK0000_texturing_Material__2_Normal.png
+    # map_bump 914KK0000_texturing_Material__2_Normal.jpg
+    norm 914KK0000_texturing_Material__2_Normal.jpg

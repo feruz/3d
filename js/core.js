@@ -14,7 +14,7 @@ function main() {
     camera.position.set(0, 10, 40);
 
     const controls = new THREE.OrbitControls(camera, canvas);
-    controls.target.set(0, 5, 0);
+    controls.target.set(0, 0, 0);
     controls.update();
 
     const scene = new THREE.Scene();
@@ -43,6 +43,7 @@ function main() {
             console.log(materials);
             objLoader.setMaterials(materials);
             objLoader.load('resources/jacket/914KK0000.obj', (event) => {
+                document.querySelector('.loader').remove();
                 const root = event.detail.loaderRootNode;
                 scene.add(root);
             });
