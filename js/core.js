@@ -39,10 +39,10 @@ function main() {
 
     {
         const objLoader = new THREE.OBJLoader2();
-        objLoader.loadMtl('/resources/jacket/914KK0000.mtl', null, (materials) => {
+        objLoader.loadMtl('resources/jacket/914KK0000.mtl', null, (materials) => {
             console.log(materials);
             objLoader.setMaterials(materials);
-            objLoader.load('/resources/jacket/914KK0000.obj', (event) => {
+            objLoader.load('resources/jacket/914KK0000.obj', (event) => {
                 const root = event.detail.loaderRootNode;
                 scene.add(root);
             });
